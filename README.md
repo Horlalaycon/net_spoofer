@@ -1,20 +1,21 @@
 # Net Spoofer
-- This is a program which can used to change mac address and ip address
-
-## Disclaimer
-- <b>Do not use</b> this  <b>program</b> for <b>illegal activities</b>, <u><b>Educational Purposes only</b></u>
+- This is a program which can used to spoof/change mac address and ip address of devices on a network.
 
 ## usage
-### python3 net_spoof.py -i wlan0 -m AA:BB:CC:DD:EE:FF -ip 192.168.1.1
-- use -i or --interface to specify the network interface
-- use -m or --mac to specify fake mac address
-- use -ip or --ipaddr to specify fake ip address
-- use -h or --help fr help menu
+- ```python3 net_spoof.py -i wlan0 -m AA:BB:CC:DD:EE:FF -ip 192.168.1.1```
+
+### options:
+- ```-h, --help            		   Show this help message and exit```
+- ```-i, --interface               Specify the network interface```
+- ```-m, --mac                     Specify Fake mac address```
+- ```-ip, -ipaddr                  Specify Fake ip address```
 
 ## Installation
-- git clone
-- cd net_spoofer
-- chmod +x net_spoof.py
+- ```git clone https://github.com/Horlalaycon/net_spoofer.git```
+- ```cd net_spoofer```
+- ```pip install -r requirements.txt```
+- ```chmod +x netspoofer```
+- ```netspoof -i wlan0 -m AA:BB:CC:DD:EE:FF -ip 192.168.1.1```
 
 # Author
-- Program Developed by f3ar_0f_th3_unkn0wn @ GitHub https://github.com/Horlalaycon
+- Program Developed by sys_br3ach3r @ GitHub https://github.com/Horlalaycon
