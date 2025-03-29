@@ -1,5 +1,5 @@
 # Net Spoofer
-- This is a program which can used to spoof/change mac address of devices on a network.
+- This is a Program which can used to spoof/change mac address of devices on a network.
 
 ## usage
 - ```python3 netspoof.py -i wlan0```
